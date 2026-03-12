@@ -1,0 +1,52 @@
+S
+
+/*Webpage Body*/
+body{
+    background-color: #2f3338 ;
+    color: #ededed;
+}
+
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #3a3f45;
+    padding: 15px 40px;
+    border-bottom: 1px solid #eee;
+    z-index: 100;
+}
+
+/* Logo / Name */
+.logo{
+    color: #ededed;
+    font-size: 64px;
+    text-align: center;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+
+    text-decoration:none;
+    color:#ededed;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    flex-direction: row; /* horizontal */
+    justify-content: space-evenly; /* spread across */
+    list-style: none; /* remove bullets */
+    padding: 0;
+    margin: 15px 0 0 0;
+    width: 100%; /* spreads across full header */
+}
+
+.nav-links li a {
+    color: #ededed;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    color: #9185BC; /* muted purple hover */
+}
